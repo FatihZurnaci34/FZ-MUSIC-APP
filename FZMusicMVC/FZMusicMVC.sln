@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FZMusicMVC", "FZMusicMVC.csproj", "{C8C7C9F2-2697-4AD7-91C4-60D73B13937F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FZMusicEntites", "..\FZMusicEntites\FZMusicEntites.csproj", "{3DCBCB70-A2A3-4182-9674-E03C6FA0FDF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C7C9F2-2697-4AD7-91C4-60D73B13937F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C7C9F2-2697-4AD7-91C4-60D73B13937F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C7C9F2-2697-4AD7-91C4-60D73B13937F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C7C9F2-2697-4AD7-91C4-60D73B13937F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCBCB70-A2A3-4182-9674-E03C6FA0FDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCBCB70-A2A3-4182-9674-E03C6FA0FDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCBCB70-A2A3-4182-9674-E03C6FA0FDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCBCB70-A2A3-4182-9674-E03C6FA0FDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {991B7F66-6C82-4310-8147-4960EE9945DF}
+	EndGlobalSection
+EndGlobal

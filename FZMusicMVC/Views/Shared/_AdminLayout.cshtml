@@ -1,0 +1,324 @@
+﻿
+@{ Layout = null; }
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FZ Music</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="~/one-music-gh-pages/Style1.css">
+
+    <link rel="stylesheet" href="~/one-music-gh-pages/style.css">
+
+    <link rel="icon" href="~/one-music-gh-pages/img/core-img/favicon.ico">
+
+    <!-- Google Font: Source Sans Pro -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="~/AdminLTE-3.1.0/plugins/fontawesome-free/css/all.min.css">
+
+    <!-- Theme style -->
+
+    <link rel="stylesheet" href="~/AdminLTE-3.1.0/dist/css/adminlte.min.css">
+
+</head>
+
+<body class="hold-transition sidebar-mini">
+
+    <div class="kaplayan-div" style="background-color:black; width:auto; height:80px; ">
+
+        <ul style="position:relative; text-decoration: none; float: right; align-items: center;">
+
+            <li class="nav-item" style="display: flex; position :relative;top:15px;">
+
+                <a href="/AnaSayfa/Index/" class="nav-link">
+
+                    <i class="nav-icon fas fa-home">@Session["Name"].ToString()</i>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+    <!-- Site wrapper -->
+    <!-- Navbar -->
+    <!-- /.navbar -->
+    <!-- Main Sidebar Container -->
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color:black">
+
+        <!-- Brand Logo -->
+
+        <a>
+
+            <img src="~/one-music-gh-pages/img/core-img/FZ MUSIC1.png" style="width:70px; height:70px;" alt="AdminLTE Logo" class="brand-image img-circle elevation-3">
+
+            <span class="brand-text font-weight-light" style="color:#D2B48C"><b>FZ Music</b></span>
+
+        </a>
+
+        <br />
+
+        <br />
+
+
+
+
+
+        <!-- Sidebar Menu -->
+
+        <nav class="mt-2" style="background-color:black">
+
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                <!-- Add icons to the links using the .nav-icon class
+
+                with font-awesome or any other icon font library -->
+
+                <li class="nav-item">
+
+                    <a href="/AnaSayfa/Index/" class="nav-link">
+
+                        <i class="nav-icon fas fa-home"></i>
+
+                        <p>
+
+                            AnaSayfa
+
+                        </p>
+
+                    </a>
+
+                </li>
+
+
+
+
+
+
+
+                <li class="nav-item">
+
+                    <a href="/Search/Index/" class="nav-link">
+
+                        <i class="nav-icon fas fa-pencil-alt"></i>
+
+                        <p>
+
+                            Ara
+
+                        </p>
+
+                    </a>
+
+                </li>
+
+
+
+                <li class="nav-item">
+
+                    <a href="/PlayList/Index/@Session["Id"].ToString()" class="nav-link">
+
+                        <i class="nav-icon fas fa-music"></i>
+
+                        <p>
+
+                            Çalma Listesi
+
+                        </p>
+
+                    </a>
+
+                </li>
+
+
+
+                <br />
+
+                <br />
+
+
+
+
+
+                <li class="nav-item">
+
+                    <a href="/LikeMusic/Index/" class="nav-link">
+
+                        <i class="nav-icon fas fa-book-reader"></i>
+
+                        <p>
+
+                            Beğendiğim Şarkılar
+
+                        </p>
+
+                    </a>
+
+                </li>
+
+
+
+                <li class="nav-item">
+
+                    <a href="/PlayList/PlaylistEkle" class="nav-link">
+
+                        <i class="nav-icon fas fa-plus"></i>
+
+                        <p>
+
+                            Çalma Listesi Oluştur
+
+                        </p>
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!-- /.sidebar-menu -->
+        </div>
+
+        <!-- /.sidebar -->
+
+    </aside>
+
+
+
+    <!-- Content Wrapper. Contains page content -->
+
+    <div class="content-wrapper" style="background-color:#383838;">
+
+
+
+
+
+        <!-- Main content -->
+
+        <section class="content-header">
+
+            @RenderBody()
+
+        </section>
+
+        <!-- /.content -->
+
+    </div>
+
+
+
+    <div class="master_play">
+
+        <div class="wave">
+
+            <div class="wave1"></div>
+
+            <div class="wave1"></div>
+
+            <div class="wave1"></div>
+
+        </div>
+
+        <img src="~/one-music-gh-pages/img/bg-img/a4.jpg" alt="bilmiyorum" />
+
+        <h5>
+            Fatih <br />
+
+            <div class="subtitle">Zurnacı</div>
+
+        </h5>
+
+
+
+        <div class="icon">
+
+            <i class="bi bi-skip-start-fill" id="back"> </i>
+
+            <i class="bi bi-play-fill" id="masterPlay"></i>
+
+            <i class="bi bi-skip-end-fill" id="next"></i>
+
+        </div>
+
+        <span id="currentStart">0:00</span>
+
+        <div class="bar">
+
+            <input type="range" id="seek" min="0" value="0" max="100" />
+
+            <div class="bar2" id="bar2"></div>
+
+            <div class="dot"></div>
+
+        </div>
+
+        <span id="currentEnd">0:00</span>
+
+
+
+        <div class="vol">
+
+            <i class="bi bi-volume-down-fill"></i>
+
+            <input type="range" id="vol" min="0" value="30" max="100" />
+
+            <div class="vol_bar"</div>
+
+            <div class="dot" id="vol_dot"></div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- /.content-wrapper -->
+    <!-- ./wrapper -->
+    <!-- jQuery -->
+
+    <script src="~/AdminLTE-3.1.0/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap 4 -->
+
+    <script src="~/AdminLTE-3.1.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AdminLTE App -->
+
+    <script src="~/AdminLTE-3.1.0/dist/js/adminlte.min.js"></script>
+
+    <!-- AdminLTE for demo purposes -->
+
+    <script src="~/AdminLTE-3.1.0/dist/js/demo.js"></script>
+
+
+
+    <script src="~/one-music-gh-pages/js/active.js"></script>
+
+    <script src="~/one-music-gh-pages/js/Audio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.AssemblyReference.cache
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CoreCompileInputs.cache
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\FZMusicEntites.dll.config
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\FZMusicEntites.dll
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\FZMusicEntites.pdb
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.dll
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.xml
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CopyComplete
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.dll
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.pdb
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.Migrations.Database.resources
+C:\Users\GÖRKEM\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.GenerateResource.cache
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\FZMusicEntites.dll.config
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\FZMusicEntites.dll
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\FZMusicEntites.pdb
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.dll
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.xml
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csprojAssemblyReference.cache
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CoreCompileInputs.cache
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CopyComplete
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.dll
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.pdb
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.Migrations.database1.resources
+C:\Users\fthzr\Desktop\PROJE\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.GenerateResource.cache
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\FZMusicEntites.dll.config
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\FZMusicEntites.dll
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\FZMusicEntites.pdb
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\EntityFramework.dll
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\EntityFramework.xml
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\obj\Debug\FZMusicEntites.csprojAssemblyReference.cache
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CoreCompileInputs.cache
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CopyComplete
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\obj\Debug\FZMusicEntites.dll
+C:\Users\fthzr\Desktop\SAKIN SILME\FZMusicEntites\obj\Debug\FZMusicEntites.pdb
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\FZMusicEntites.dll.config
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\FZMusicEntites.dll
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\FZMusicEntites.pdb
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\EntityFramework.dll
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\EntityFramework.xml
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.csprojAssemblyReference.cache
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CoreCompileInputs.cache
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.CopyComplete
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.dll
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.pdb
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.Migrations.database1.resources
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.csproj.GenerateResource.cache
+C:\Users\fthzr\Desktop\FZMUSICAPP\FZMusicEntites\obj\Debug\FZMusicEntites.Migrations.database2.resources
