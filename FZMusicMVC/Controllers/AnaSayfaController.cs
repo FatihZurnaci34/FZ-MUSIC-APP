@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FZMusicEntites.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,9 @@ namespace FZMusicMVC.Controllers
         // GET: AnaSayfa
         public ActionResult Index()
         {
+           
             return View();
+
         }
     }
 }

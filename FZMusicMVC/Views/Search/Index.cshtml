@@ -37,6 +37,11 @@
                         </a>
                         <p>@searchmusic.Artist.Name @searchmusic.Artist.Surname</p>
                         <a href="/LikeMusic/Like/@searchmusic.Id"><i style="font-size: 25px " class="bi bi-star"></i> </a> <a href="@searchmusic.Url"><i style="color:green; font-size: 25px " class="bi bi-play-circle-fill"></i></a>
+                        <br />
+                        <br />
+                        <audio controls>
+                            <source src="@searchmusic.Url" type="audio/mpeg">
+                        </audio>
                     </div>
                 </div>
             </div>

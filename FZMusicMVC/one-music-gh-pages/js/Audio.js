@@ -1,4 +1,4 @@
-﻿const music = new Audio('patron-manzaralar-official-video.mp3');
+﻿/*/*const music = new Audio('patron-manzaralar-official-video.mp3');*/*/
 
 let masterPlay = document.getElementById('masterPlay');
 let wave = document.getElementsByClassName('wave')[0];

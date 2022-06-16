@@ -10,9 +10,12 @@ namespace FZMusicMVC.Controllers
     public class PlayListController : Controller
     {
         FZMusicContext db = new FZMusicContext();
+
+        
         // GET: PlayList
         public ActionResult Index()
         {
+
             string a = @Session["Id"].ToString();
             int id = Convert.ToInt32(a);
 
@@ -74,7 +77,7 @@ namespace FZMusicMVC.Controllers
 
             papl.PlayListMusics = db.playListMusic.Where(x => x.PlaylistId == pa).ToList();
 
-
+            
             ViewBag.Name = Session["PlaylistName"];
             ViewBag.Id = Session["PlaylistId"];
             return View(papl);
@@ -125,7 +128,27 @@ namespace FZMusicMVC.Controllers
             return RedirectToAction("Ekle");
 
         }
+        
+        public ActionResult deletePlaylist(int id)
+        {
+            Playlist playList = db.Playlist.Find(id);
+            db.Playlist.Remove(playList);
+            db.SaveChanges();
 
+            return RedirectToAction("Index");
+
+        }
+
+        public ActionResult PlayListListele(string pid)
+        {
+            int playid = Convert.ToInt32(pid);
+            string a = @Session["Id"].ToString();
+            int id = Convert.ToInt32(a);
+
+            var play = db.playListMusic.AsNoTracking().Where(x => x.PlaylistId == playid);
+
+            return View(play.ToList());
+        }
 
 
 

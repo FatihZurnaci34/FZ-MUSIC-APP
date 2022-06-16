@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AnaSayfaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LikeMusicController.cs" />
@@ -2207,10 +2208,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="Image\adamlar-doldum.jpg" />
     <Content Include="Image\cevapsiz-sorular.jpg" />
+    <Content Include="Image\istockphoto-1300845620-612x612.jpg" />
     <Content Include="Image\kaan-barbar.jpg" />
     <Content Include="Image\kaan-bırakma-kendini.jpg" />
+    <Content Include="Image\kendimden-hallice.jpg" />
     <Content Include="Image\müslüm-sigara.jpg" />
     <Content Include="Image\patron-manzaralar.jpg" />
+    <Content Include="Musics\kendimden-hallice-sana-lyric-video.mp3" />
     <Content Include="Musics\patron-manzaralar-official-video.mp3" />
     <Content Include="one-music-gh-pages\albums-store.html" />
     <Content Include="one-music-gh-pages\audio\dummy-audio.mp3" />
@@ -2649,6 +2653,9 @@
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\PlayList\Ekle.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Views\Account\PasswordChange.cshtml" />
+    <Content Include="Views\PlayList\PlayListListele.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

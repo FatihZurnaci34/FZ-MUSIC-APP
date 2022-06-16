@@ -1,5 +1,4 @@
-﻿
-@{ Layout = null; }
+﻿@{ Layout = null; }
 
 
 
@@ -120,7 +119,7 @@
 
                     <a href="/Search/Index/" class="nav-link">
 
-                        <i class="nav-icon fas fa-pencil-alt"></i>
+                        <i class="nav-icon fas fa-search"></i>
 
                         <p>
 
@@ -164,7 +163,7 @@
 
                     <a href="/LikeMusic/Index/" class="nav-link">
 
-                        <i class="nav-icon fas fa-book-reader"></i>
+                        <i class="nav-icon fas fa-star"></i>
 
                         <p>
 
@@ -193,6 +192,36 @@
                     </a>
 
                 </li>
+
+
+
+                <br />
+
+                <br />
+
+                <br />
+
+                <br />
+
+
+                <li class="nav-item">
+
+                    <a href="/Account/Index/@Session["Id"].ToString()" class="nav-link">
+
+                        <i style="font-size:24px;" class="bi bi-person-circle"></i>
+
+                        <p>
+
+                            Profil
+
+                        </p>
+
+                    </a>
+
+                </li>
+
+
+
 
             </ul>
 
@@ -227,6 +256,11 @@
 
     </div>
 
+
+
+    @*<audio id="player">
+        <source src="~/Musics/kendimden-hallice-sana-lyric-video.mp3" type="audio/mpeg" />
+    </audio>*@
 
 
     <div class="master_play">

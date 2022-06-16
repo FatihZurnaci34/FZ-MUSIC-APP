@@ -1,5 +1,6 @@
 ﻿@model FZMusicEntites.Models.PlaylistAndPlayListMusic
 
+
 @{
     ViewBag.Title = "Ekle";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -12,64 +13,70 @@
 <div style="text-align: center; margin: 15px; background-color: #343A40; color: white ">
     <h2> <b>Çalma Listesi Ekleme </b></h2>
 </div>
-<div style="width:97%; height:200px; font-size:24px; color:white; font-weight:bold;">
-    @ViewBag.Name @ViewBag.Id
+<div style="width: 100%; height: 100%; font-size: 24px; color: white; font-weight: bold;">
 
-    <div style="position:r margin:15px">
-        <table class="table table-bordered">
-            <thead>
-                <tr style="background-color: #343A40; color: white">
-
-                    <th>MüzikAdi</th>
-                    <th>Sanatcı</th>
-                    <th>Kategori</th>
-
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var playlistsMusics in Model.PlayListMusics)
-                {
-                    <tr>
-
-                        <td style="color:white;">@playlistsMusics.Music.Name</td>
-                        <td style="color:white;">@playlistsMusics.Music.Artist.Name</td>
-                        <td style="color:white;">@playlistsMusics.Music.Category.Name</td>
-
-                        <td>
-                            <a class="btn btn-danger" href="/Playlist/delete/@playlistsMusics.PlayListMusicId">Sil</a>&nbsp;
-
-
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-
-
-
-
+ 
+    @ViewBag.Name @ViewBag.Id*
 </div>
-<div style="width:100%; height:50px; color:white; font-weight:bold; text-align:center;">Müzikler</div>
-
-
-
-
 <div style="margin:15px">
     <table class="table table-bordered">
         <thead>
-            <tr style="background-color: #343A40; color: white">
+            <tr style="background-color: #343A40; text-align:center; color: white">
 
                 <th>MüzikAdi</th>
                 <th>Sanatcı</th>
                 <th>Kategori</th>
+                <th>İşlem</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var playlistsMusics in Model.PlayListMusics)
+            {
+                <tr style=" text-align: center;">
+
+                    <td style="color:white;">@playlistsMusics.Music.Name</td>
+                    <td style="color:white;">@playlistsMusics.Music.Artist.Name</td>
+                    <td style="color:white;">@playlistsMusics.Music.Category.Name</td>
+
+                    <td>
+                        <a class="btn btn-danger" href="/Playlist/delete/@playlistsMusics.PlayListMusicId">Sil</a>&nbsp;
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style="width:100%; height:100%; font-size:30px; color:white; font-weight:bold; text-align:center;">MÜZİKLER</div>
+<div style="margin:15px">
+    <table class="table table-bordered">
+        <thead>
+            <tr style="background-color: #343A40;  text-align:center;  color: white">
+
+                <th>MüzikAdi</th>
+                <th>Sanatcı</th>
+                <th>Kategori</th>
+                <th>İşlem</th>
 
             </tr>
         </thead>
         <tbody>
             @foreach (var playlistsMusic in Model.Musics)
             {
-                <tr>
+                <tr style="text-align:center;">
 
                     <td style="color:white;">@playlistsMusic.Name</td>
                     <td style="color:white;">@playlistsMusic.Artist.Name</td>
