@@ -29,15 +29,20 @@
 
             <!-- Play Listler -->
             <div class="col-12 col-sm-4 col-md-3 col-lg-2 single-album-item t c p">
-                <div class="single-album">                   
-                      <img style="height:250px;" src="@likes.Music.Image" alt="">
+                <div class="single-album">
+                    <img style="height:250px;" src="@likes.Music.Image" alt="">
                     <div class="album-info">
                         <a href="#">
                             <h5>@likes.Music.Name</h5>
                         </a>
                         <p>@likes.Music.Artist.Name @likes.Music.Artist.Surname</p>
                         <a href="/LikeMusic/Like/@likes.Music_id"><i style="font-size: 25px " class="bi bi-star-fill"></i> </a> <a href="@likes.Music.Url"><i style="color:green; font-size: 25px " class="bi bi-play-circle-fill"></i></a>
-</div>
+                    </div>
+                    <br />
+                    <br />
+                    <audio controls>
+                        <source src="@likes.Music.Url" type="audio/mpeg">
+                    </audio>
                 </div>
             </div>
         }

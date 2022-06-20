@@ -53,6 +53,12 @@
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -2202,6 +2208,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -2214,7 +2221,12 @@
     <Content Include="Image\kendimden-hallice.jpg" />
     <Content Include="Image\müslüm-sigara.jpg" />
     <Content Include="Image\patron-manzaralar.jpg" />
+    <Content Include="Musics\adamlar-doldum.mp3" />
+    <Content Include="Musics\kaan-bosnak-barbar-lyric-video.mp3" />
+    <Content Include="Musics\kaan-bosnak-birakma-kendini.mp3" />
     <Content Include="Musics\kendimden-hallice-sana-lyric-video.mp3" />
+    <Content Include="Musics\manga-cevapsiz-sorular.mp3" />
+    <Content Include="Musics\muslum-gurses-nilufer.mp3" />
     <Content Include="Musics\patron-manzaralar-official-video.mp3" />
     <Content Include="one-music-gh-pages\albums-store.html" />
     <Content Include="one-music-gh-pages\audio\dummy-audio.mp3" />

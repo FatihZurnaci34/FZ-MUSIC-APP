@@ -342,3 +342,7 @@ C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\obj\Debug\FZMusicMVC
 C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\obj\Debug\FZMusicMVC.csproj.CopyComplete
 C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\obj\Debug\FZMusicMVC.dll
 C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\obj\Debug\FZMusicMVC.pdb
+C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\bin\PagedList.dll
+C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\bin\PagedList.Mvc.dll
+C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\bin\PagedList.xml
+C:\Users\fthzr\Desktop\FZ-MUSIC-APP\FZ-MUSIC-APP\FZMusicMVC\bin\PagedList.Mvc.xml

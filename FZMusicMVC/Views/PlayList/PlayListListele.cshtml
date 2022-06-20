@@ -1,5 +1,5 @@
-﻿@using FZMusicEntites.Models
-@model List<PlayListMusic>
+﻿@model FZMusicEntites.Models.PlaylistAndPlayListMusic
+
 
 @{
     ViewBag.Title = "Ekle";
@@ -27,25 +27,26 @@
                 <th>Kategori</th>
                 <th>İşlem</th>
 
+
             </tr>
         </thead>
         <tbody>
-            @foreach (var playlistsMusics in Model)
+            @foreach (var playlistsMusics in Model.PlayListMusics)
             {
-                <tr style=" text-align: center;">
+            <tr style=" text-align: center;">
 
-                    <td style="color:white;">@playlistsMusics.Music.Name</td>
-                    <td style="color:white;">@playlistsMusics.Music.Artist.Name</td>
-                    <td style="color:white;">@playlistsMusics.Music.Category.Name</td>
+                <td style="color:white;">@playlistsMusics.Music.Name</td>
+                <td style="color:white;">@playlistsMusics.Music.Artist.Name</td>
+                <td style="color:white;">@playlistsMusics.Music.Category.Name</td>
+                <td>
+                    <a class="btn btn-danger" href="/Playlist/delete/@playlistsMusics.PlayListMusicId">Sil</a>&nbsp;
 
-                    @*<td>
-                        <a class="btn btn-danger" href="/Playlist/delete/@playlistsMusics.PlayListMusicId">Sil</a>&nbsp;
+
+                </td>
 
 
-                    </td>*@
-                </tr>
+            </tr>
             }
         </tbody>
     </table>
 </div>
-

@@ -13,6 +13,7 @@ namespace FZMusicMVC.Controllers
         FZMusicContext db = new FZMusicContext();
         public ActionResult Index(string p)
         {
+
             var searchmusic = from m in db.Music select m;
 
             if (!String.IsNullOrEmpty(p))

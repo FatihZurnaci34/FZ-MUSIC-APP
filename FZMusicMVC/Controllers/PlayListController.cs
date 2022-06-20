@@ -107,7 +107,7 @@ namespace FZMusicMVC.Controllers
             string a = @Session["Id"].ToString();
             int userId = Convert.ToInt32(a);
             Playlist playlists = new Playlist();
-            playlists.Name = "1.Çalma Listem";
+            playlists.Name = "Çalma Listem";
             playlists.User_id = userId;
             db.Playlist.Add(playlists);
             db.SaveChanges();
@@ -141,15 +141,15 @@ namespace FZMusicMVC.Controllers
 
         public ActionResult PlayListListele(string pid)
         {
+            PlaylistAndPlayListMusic deneme = new PlaylistAndPlayListMusic();
+            deneme.Musics = db.Music.ToList();
             int playid = Convert.ToInt32(pid);
             string a = @Session["Id"].ToString();
             int id = Convert.ToInt32(a);
+            deneme.PlayListMusics = db.playListMusic.Where(x => x.PlaylistId == playid).ToList();
 
-            var play = db.playListMusic.AsNoTracking().Where(x => x.PlaylistId == playid);
-
-            return View(play.ToList());
+            return View(deneme);
         }
-
 
 
     }
